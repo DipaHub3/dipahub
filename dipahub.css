@@ -1,0 +1,157 @@
+
+.site-title{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: bold;
+  font-size: 40px;
+
+}
+
+header{
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin: 0px;
+  margin-bottom: 80px;
+
+}
+
+button{
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.20);
+  border: none;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  width: 100px;
+  cursor: pointer;
+}
+
+input{
+  height: 35px;
+}
+
+.premessa-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  margin-bottom: 150px;
+}
+.premessa-text-div{
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  
+  
+}
+
+.premessa-paragraph{
+  margin-bottom: 60px;
+}
+
+.image-div{
+  width: 100%;
+  align-items: center;
+}
+
+.premessa-image{
+  
+  border-radius: 50px;
+  
+}
+
+
+
+
+.hero-grid{
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
+}
+
+.hero-image-div{
+  padding-left: 50px;
+  
+}
+
+.hero-image{
+  width: 100%;
+  border-radius: 200px;
+
+
+}
+.hero-text-div{
+  display: inline-block;
+  text-align: center;
+
+}
+
+.servizio-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.servizio-div{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.form-horizontal-grid{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  row-gap: 50px;
+  margin-bottom: 100px;
+  
+}
+
+
+.form-text-div{
+  text-align: center;
+}
+
+.form-vertical-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 100px;
+  column-gap: 60px;
+  row-gap: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  
+}
+
+
+
+footer{
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+
+}
+
+
+
+.footer-information{
+  text-align: center;
+}
+
+.footer-pages{
+  text-align: center;
+}
