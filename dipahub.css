@@ -1,4 +1,8 @@
 
+
+
+  
+
 .site-title{
   font-family: Arial, Helvetica, sans-serif ;
   font-weight: bold;
@@ -138,9 +142,7 @@ input{
   box-shadow: 0px 5px 10px rgba(0,0, 0,0.15);
 }
 
-.servizio-hovering{
-   
-}
+
 
 .triangolo-paragrafo{
    text-align: center;
@@ -156,13 +158,14 @@ input{
 
 
 
-.form-horizontal-grid{
+.form-grid{
   background-color: rgb(180, 178, 178);
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr ;
   align-items: center;
   row-gap: 20px;
   margin-bottom: 100px;
+  padding: 100px;
   
 }
 
@@ -207,3 +210,94 @@ footer{
 .footer-pages{
   text-align: center;
 }
+
+
+  @media only screen and (max-width: 580px) {
+
+  
+
+    .site-title{
+      font-family: Arial, Helvetica, sans-serif ;
+      font-weight: bold;
+      font-size: 40px;
+    
+    }
+    
+    header{
+      display: grid;
+      grid-template-columns: 1fr;
+      background-color: black;
+      color: white;
+      padding: 15px;
+      margin: 0px;
+      margin-bottom: 80px;
+    
+    }
+    
+    .premessa-grid, 
+    .hero-grid, 
+    .servizi-grid, 
+    .form-horizontal-grid,
+    .form-vertical-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+
+
+  .premessa-text-div,
+  .hero-text-div,
+  .servizio-div,
+  .form-text-div {
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 80%;
+  }
+
+  .hero-image-div, 
+  .image-div {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .hero-image, 
+  .premessa-image {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .premessa-text-div{
+    margin-bottom: 100px;
+  }
+
+  .form-grid {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 100px 20px;
+  }
+
+  .form-text-div{
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-information, 
+  .footer-pages {
+    margin-bottom: 10px;
+  }
+}
+  
